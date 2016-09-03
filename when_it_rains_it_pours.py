@@ -47,3 +47,4 @@ def answer_helper(heights, boundary=None):
 # This solution is much like a binary search, except it searches for wells.
 def answer(heights):
 	return answer_helper(heights)
+
