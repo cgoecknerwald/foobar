@@ -1,6 +1,9 @@
 # foobar
 Foobar solutions
 
+## Foobar Starter
+This is the solution that gave access to the foobar problems. It interacts quickly with a website as requested by said website.
+
 ## When It Rains, It Pours
 This solution is in Python. It operates much like a binary search, except it searches for wells.
 
@@ -18,5 +21,5 @@ This solution is in Python. Takes a list of pairs [start, end] and returns the t
 Creates a list of 'snippets', or sub-strings of the document argument, which are then sorted by their length. The algorithm creates snippets by visiting each keyword in 'document', and then finding the next available string that contains all keywords. It halts when it can no longer create valid snippets.
 
 ## Hash It Out
-hash_it_out_en.py was written by [Enrico Borba](https://github.com/enricozb) as a ten-minute proof of concept. (It wasn't known at the time if the hash would return multiple values, thus the finagling.)
-hash_it_out.py is my own. It assumes that the hash is bad (which Enrico and I had proven), and is thus much shorter. It relies on the concept that A XOR B XOR B = A, which was news to me! :)
+`hash_it_out_en.py` was written by [Enrico Borba](https://github.com/enricozb) as a ten-minute proof of concept. (It wasn't known at the time if the hash would return multiple values, thus the finagling.)
+`hash_it_out.py` is my own. It assumes that the hash is bad (which Enrico and I had proven), and is thus much shorter. It relies on the concept that A XOR B XOR B = A, which was news to me! :)
